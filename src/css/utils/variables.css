@@ -1,0 +1,9 @@
+:root {
+  --cl-primary-txt: rgb(18, 20, 23);
+  --cl-second-txt: rgba(18, 20, 23, 0.5);
+  --cl-bg-grey: #f3f5f6;
+  --cl-bg-primary: #4dc274;
+  --cl-bg-accent: #38ae5f;
+  --cl-white: #ffffff;
+  --cl-light-green: #d4fde1;
+}
