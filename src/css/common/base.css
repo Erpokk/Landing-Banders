@@ -5,8 +5,7 @@ body {
   letter-spacing: 0em;
   font-weight: 400;
 
-  color: rgb(var(--cl-primary));
-  background-color: rgb(var(--cl-secondary) / 87%);
+  color: var(--cl-primary-txt);
 }
 
 .container {

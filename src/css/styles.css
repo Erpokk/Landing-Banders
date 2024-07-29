@@ -7,6 +7,7 @@
 /* Utils styles */
 @import url('./utils/fonts.css');
 @import url('./utils/variables.css');
+@import url('./utils/normalize.css');
 @import url('./utils/reset.css');
 
 /* Common styles */
@@ -23,3 +24,4 @@
 @import url('./components/review.css');
 @import url('./components/footer.css');
 @import url('./components/mobile-menu.css');
+@import url('./components/socials.css');
