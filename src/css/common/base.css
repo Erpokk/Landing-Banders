@@ -45,14 +45,14 @@ body {
 }
 
 .mg-sec {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 
   @media only screen and (min-width: 768px) {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   @media only screen and (min-width: 1280px) {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 }
 
