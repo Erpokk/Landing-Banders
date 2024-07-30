@@ -3,18 +3,17 @@
 .hero {
   display: block;
   position: relative;
-  background-color: #f3f5f6;
+  background-color: var(--cl-bg-grey);
   padding: 425px 20px 72px 20px;
   margin: 8px auto 0 auto;
   max-width: 335px;
-  height: 709px;
   border-radius: 16px;
   background-image: linear-gradient(
       357deg,
       rgba(0, 0, 0, 0.4) 39.23%,
       rgba(0, 0, 0, 0) 66.28%
     ),
-    url(/img/hero/hero-bg.jpg);
+    url('./../../img/hero/hero-bg.jpg');
   background-repeat: no-repeat;
   background-position-x: calc(100% + 213px);
   /* -566px */
@@ -31,7 +30,7 @@
         rgba(0, 0, 0, 0.4) 39.23%,
         rgba(0, 0, 0, 0) 66.28%
       ),
-      url(/img/hero/hero-bg@2x.jpg);
+      url('./../../img/hero/hero-bg@2x.jpg');
   }
 }
 
@@ -48,7 +47,7 @@
         rgba(0, 0, 0, 0.4) 36.36%,
         rgba(0, 0, 0, 0) 51.43%
       ),
-      url(/img/hero/hero-bg.jpg);
+      url('./../../img/hero/hero-bg.jpg');
     background-repeat: no-repeat;
     background-position-x: calc(100% + 352px);
     /* -256px */
@@ -67,7 +66,7 @@
         rgba(0, 0, 0, 0.4) 36.36%,
         rgba(0, 0, 0, 0) 51.43%
       ),
-      url(/img/hero/hero-bg@2x.jpg);
+      url('./../../img/hero/hero-bg@2x.jpg');
   }
 }
 
@@ -84,7 +83,7 @@
         rgba(0, 0, 0, 0.4) 36.36%,
         rgba(0, 0, 0, 0) 51.43%
       ),
-      url(/img/hero/hero-bg.jpg);
+      url('./../../img/hero/hero-bg.jpg');
     background-repeat: no-repeat;
     background-position-x: 0px;
     background-position-y: calc(100% + 123px);
@@ -102,14 +101,13 @@
         rgba(0, 0, 0, 0.4) 36.36%,
         rgba(0, 0, 0, 0) 51.43%
       ),
-      url(/img/hero/hero-bg@2x.jpg);
+      url('./../../img/hero/hero-bg@2x.jpg');
   }
 }
 
 .hero-title {
-  color: #fff;
+  color: var(--cl-white);
   text-align: left;
-  font-weight: 700;
   font-size: 38px;
   line-height: 1.0526;
   margin-bottom: 10px;
@@ -151,10 +149,8 @@
   text-align: center;
   max-width: 295px;
 
-  background-color: #4dc274;
-  color: #fff;
-  font-weight: 700;
-  font-size: 14px;
+  background-color: var(--cl-bg-primary);
+  color: var(--cl-white);
   line-height: 1.7143;
   border-radius: 12px;
   transition: background-color 250ms linear;
@@ -168,7 +164,7 @@
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #38ae5f;
+  background-color: var(--cl-bg-accent);
 }
 
 @media screen and (min-width: 768px) {
@@ -190,23 +186,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: var(--cl-white);
   cursor: pointer;
   transition: background-color 250ms linear;
 }
 
 .hero-button-scroll:hover,
 .hero-button-scroll:focus {
-  background-color: #4dc274;
+  background-color: var(--cl-bg-primary);
 }
 
 .hero-button-scroll-icon {
-  fill: #4dc274;
+  fill: var(--cl-bg-primary);
 }
 
 .hero-button-scroll:hover .hero-button-scroll-icon,
 .hero-button-scroll:focus .hero-button-scroll-icon {
-  fill: #fff;
+  fill: var(--cl-white);
 }
 
 @media screen and (min-width: 768px) {
