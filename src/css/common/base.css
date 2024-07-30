@@ -1,6 +1,6 @@
 body {
-  font-family: Manrope, sans-serif;
-  font-size: 14;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0em;
   font-weight: 400;
@@ -40,20 +40,33 @@ body {
   }
 }
 
-.underline {
-  position: relative;
-}
-
 .mg-sec {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 
   @media only screen and (min-width: 768px) {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   @media only screen and (min-width: 1280px) {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
+}
+
+.hd-two {
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--cl-primary-txt);
+  margin-bottom: 16px;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 40px;
+  }
+}
+
+.underline {
+  position: relative;
 }
 
 .underline::after {
