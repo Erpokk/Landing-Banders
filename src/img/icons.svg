@@ -1,9 +1,6 @@
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"
   xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <symbol id="check" viewBox="0 0 56 32">
-      <path d="M30.84 21.6a3.996 3.996 0 0 1-4.378.876 4.006 4.006 0 0 1-1.302-.876L6.84 3.24A4.011 4.011 0 0 0 4 2.056 3.999 3.999 0 0 0 1.16 3.24a3.999 3.999 0 0 0 0 5.64l18.36 18.36a12 12 0 0 0 16.96 0L54.84 8.88a4.008 4.008 0 0 0 0-5.64A4.011 4.011 0 0 0 52 2.056a3.999 3.999 0 0 0-2.84 1.184L30.84 21.6z"/>
-    </symbol>
     <symbol id="cross" viewBox="0 0 32 32">
       <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3" d="M24 8 8 24M8 8l16 16"/>
     </symbol>
