@@ -5,7 +5,7 @@ body {
   letter-spacing: 0em;
   font-weight: 400;
 
-  color: var(--cl-primary-txt);
+  color: var(--cl-primary-txt)
 }
 
 .container {
