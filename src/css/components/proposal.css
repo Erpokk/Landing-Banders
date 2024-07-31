@@ -8,6 +8,7 @@
     height: 737px;
     margin: 0 auto; 
 } 
+
 .proposal-wrapper {
     border-radius: 16px;
     background-color: var(--cl-white);
@@ -15,6 +16,7 @@
     position: relative;
     padding: 40px 19px;
     margin: 0 auto; 
+
 }
 .proposal-wrapper::before,
 .proposal-wrapper::after {
@@ -35,6 +37,7 @@
 .proposal-wrapper::after {
     background-color: var(--cl-light-green);
     transform: translate(-50%, -50%) rotate(-11deg);
+
 } 
 .prop-p {
     font-weight: 700;
@@ -43,6 +46,7 @@
     color: var(--cl-white);
     margin-bottom: 40px;
     padding: 40px 20px;    
+
 }
 .proposal-span {
     color: var(--cl-line-green);
@@ -86,6 +90,7 @@
     letter-spacing: -0.02em;
     color: #121417;
 }
+
 .proposal-icon {
     background-color: var(--cl-bg-primary);
     border-radius: 100%; 
@@ -110,6 +115,8 @@
     border-radius: 12px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+  
 .proposal-img {
     display: none;
 }
@@ -122,6 +129,7 @@
         font-size: 60px;
         line-height: 1.17;
         padding: 64px 32px;
+
     }
     .proposal-wrapper {
         border-radius: 30px;
@@ -143,10 +151,12 @@
     .proposal-list-item {
         gap: 16px;
     }
+
     .proposal-icon {
         width: 28px;
         height: 28px;
     }
+
 
     .proposal-text {
         font-size: 20px;
@@ -163,6 +173,7 @@
         position: absolute;
         top: 32%;
         left: 75%;
+
     }
 }
 @media only screen and (min-width: 1280px) {
@@ -174,6 +185,7 @@
         margin-bottom: 72px;
         padding: 64px;
         padding-right: 312px;
+
     }
     .proposal-wrapper {
         width: 1023px;
@@ -196,4 +208,5 @@
     .proposal-button:focus {
         background-color: var(--cl-bg-accent);
         }
+
 }
