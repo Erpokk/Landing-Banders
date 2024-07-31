@@ -7,6 +7,9 @@
   --cl-white: #ffffff;
   --cl-light-green: #d4fde1;
   --cl-line-green: #bee8cc;
+  --cl-shadow: #bebebe;
+  --cl-border-social-link: rgba(18, 20, 23, 0.10);
+  --cl-border-social-link-accent: rgba(77, 194, 116, 0.10);
   
   
   font-synthesis: none;
