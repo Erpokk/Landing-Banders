@@ -113,10 +113,6 @@
   margin-bottom: 10px;
 }
 
-.hero-title .accent {
-  color: #bee8cc;
-}
-
 @media screen and (min-width: 375px) {
   .hero-title {
     margin-bottom: 40px;

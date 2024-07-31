@@ -89,3 +89,7 @@ body {
     height: 20px;
   }
 }
+
+.accent {
+  color: var(--cl-line-green);
+}
