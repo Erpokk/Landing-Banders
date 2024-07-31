@@ -14,7 +14,7 @@
     
     
     <script type="module" crossorigin src="/msc-5-gp-3/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/msc-5-gp-3/assets/index-bbba928e.css">
+    <link rel="stylesheet" href="/msc-5-gp-3/assets/index-0cd0d884.css">
   </head>
   <body>
     <header class="header">
@@ -41,32 +41,48 @@
             </li>
           </ul>
         </nav>
-        <ul class="social-list socials">
-          <li class="social-item">
-            <a class="social-link" href="https://www.facebook.com/goITclub/" target="_blank" rel="noopener noreferrer" aria-label="Link to Facebook site">
-          <svg class="social-icon" width="27" height="28">
-            <use href="../img/icons.svg#facebook">
-            </use>
-          </svg>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="social-link" href="https://www.instagram.com/goitclub/" target="_blank" rel="noopener noreferrer" aria-label="Link to Instagram site">
-            <svg class="social-icon" width="27" height="28">
-              <use href="../img/icons.svg#instagram">
-              </use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="social-link" href="https://www.youtube.com/c/GoIT" target="_blank" rel="noopener noreferrer" aria-label="Link to YouTube site">
-            <svg class="social-icon" width="27" height="28">
-              <use href="../img/icons.svg#youtube">
-              </use>
-            </svg>
-          </a>
-        </li>
-        </ul>
+        <ul class="social-list {=$location}">
+  <li class="social-item">
+    <a
+      class="social-link"
+      href="https://www.facebook.com/goITclub/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Link to Facebook site"
+    >
+      <svg class="social-icon" width="27" height="28">
+        <use href="../img/icons.svg#facebook"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="social-item">
+    <a
+      class="social-link"
+      href="https://www.instagram.com/goitclub/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Link to Instagram site"
+    >
+      <svg class="social-icon" width="27" height="28">
+        <use href="../img/icons.svg#instagram"></use>
+      </svg>
+    </a>
+  </li>
+  <li class="social-item">
+    <a
+      class="social-link"
+      href="https://www.youtube.com/c/GoIT"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Link to YouTube site"
+    >
+      <svg class="social-icon" width="27" height="28">
+        <use href="../img/icons.svg#youtube"></use>
+      </svg>
+    </a>
+  </li>
+</ul>
+
       </div>
       <button class="menu-burger-btn" id="burger" aria-label="icon menu">
         <span></span>
@@ -293,9 +309,7 @@
           </ul>
         </address>
       </div>
-
       <!-- navigation -->
-
       <nav class="footer-nav">
         <ul class="footer-nav-list">
           <li class="footer-nav-item">
@@ -316,52 +330,58 @@
         </ul>
       </nav>
       <!-- socials-icons -->
-      <ul class="footer-socials">
-  <li>
+      <ul class="social-list footer">
+  <li class="social-item">
     <a
+      class="social-link"
       href="https://www.facebook.com/goITclub/"
-      class="footer-socials-link"
       target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Link to Facebook site"
     >
-      <svg class="footer-socials-icon" width="28" height="28">
-        <use href="/msc-5-gp-3/assets/icons-70eedd41.svg#facebook"></use>
+      <svg class="social-icon" width="27" height="28">
+        <use href="../img/icons.svg#facebook"></use>
       </svg>
     </a>
   </li>
-  <li>
+  <li class="social-item">
     <a
+      class="social-link"
       href="https://www.instagram.com/goitclub/"
-      class="footer-socials-link"
       target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Link to Instagram site"
     >
-      <svg class="footer-socials-icon" width="28" height="28">
-        <use href="/msc-5-gp-3/assets/icons-70eedd41.svg#instagram"></use>
+      <svg class="social-icon" width="27" height="28">
+        <use href="../img/icons.svg#instagram"></use>
       </svg>
     </a>
   </li>
-  <li>
+  <li class="social-item">
     <a
+      class="social-link"
       href="https://www.youtube.com/c/GoIT"
-      class="footer-socials-link"
       target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Link to YouTube site"
     >
-      <svg class="footer-socials-icon" width="28" height="28">
-        <use href="/msc-5-gp-3/assets/icons-70eedd41.svg#youtube"></use>
+      <svg class="social-icon" width="27" height="28">
+        <use href="../img/icons.svg#youtube"></use>
       </svg>
     </a>
   </li>
 </ul>
 
       <!-- All rights text -->
-      <div class="footer-vector">
-        <div class="footer-text-wrapper">
-          <p class="footer-text">
-            &#169; 2023 English Excellence. All rights reserved.
-          </p>
-          <div class="footer-text-wrap">
-            <p class="footer-text">Privacy Policy</p>
-            <p class="footer-text">Terms of Service</p>
-          </div>
+    </div>
+    <div class="footer-vector">
+      <div class="footer-text-wrapper">
+        <p class="footer-text">
+          &#169; 2023 English Excellence. All rights reserved.
+        </p>
+        <div class="footer-text-wrap">
+          <p class="footer-text">Privacy Policy</p>
+          <p class="footer-text">Terms of Service</p>
         </div>
       </div>
     </div>
