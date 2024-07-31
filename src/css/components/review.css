@@ -1,0 +1,116 @@
+.review-header {
+    font-size: 32px;    
+    line-height: 1.125;
+    letter-spacing: 0.02em;
+    text-align: center;   
+    margin-bottom: 16px;
+}
+
+.review-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+.review-list-item {
+    background-color: var(--cl-bg-grey);
+    border-radius: 16px;
+    padding: 20px 0 40px 0;
+    display: none;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.reviewer {
+    background-color: var(--cl-bg-primary);
+    border-radius: 8px;
+    margin: 0 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 295px;
+    gap: 8px;
+}
+
+.reviewer-image {
+    border-radius: 50%;
+}
+
+.reviewer-info {
+    display: block;
+    gap: 2px;
+}
+
+.reviewer-name {
+    font-size: 20px;    
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--cl-white);
+}
+
+.reviewer-role {
+    font-size: 12px;
+    color: var(--cl-text-light-secondary);
+}
+
+.review {
+    margin: 0 34px;
+}
+
+/* Media queries для адаптивного дизайну */
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .review-list-item:nth-child(1) {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .review-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .review-list-item:nth-child(1) {
+        display: flex;
+    }
+
+    .review-list-item:nth-child(2) {
+        display: flex;
+    }
+
+    .review-list-item {
+        flex-basis: calc((100% - 32px) / 2);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .review-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .review-list-item:nth-child(1) {
+        display: flex;
+    }
+
+    .review-list-item:nth-child(2) {
+        display: flex;
+    }
+
+    .review-list-item:nth-child(3) {
+        display: flex;
+    }
+
+    .review-list-item {
+        flex-basis: calc((100% - 64px) / 3);
+    }
+}

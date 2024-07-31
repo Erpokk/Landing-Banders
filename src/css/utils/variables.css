@@ -7,14 +7,15 @@
   --cl-white: #ffffff;
   --cl-light-green: #d4fde1;
   --cl-line-green: #bee8cc;
+  --cl-text-light-secondary: rgba(255, 255, 255, 0.5);
   --cl-shadow: #bebebe;
   --cl-border-social-link: rgba(18, 20, 23, 0.10);
   --cl-border-social-link-accent: rgba(77, 194, 116, 0.10);
   
+
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
