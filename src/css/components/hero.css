@@ -138,40 +138,6 @@
   }
 }
 
-.hero-button {
-  display: block;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  text-align: center;
-  max-width: 295px;
-
-  background-color: var(--cl-bg-primary);
-  color: var(--cl-white);
-  line-height: 1.7143;
-  border-radius: 12px;
-  transition: background-color 250ms linear;
-}
-
-@media screen and (min-width: 375px) {
-  .hero-button {
-    padding: 14px 78px;
-  }
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--cl-bg-accent);
-}
-
-@media screen and (min-width: 768px) {
-  .hero-button {
-    font-size: 18px;
-    line-height: 1.5556;
-    padding: 16px 64px;
-    max-width: 306px;
-  }
-}
-
 .hero-button-scroll {
   position: absolute;
   bottom: 14px;
