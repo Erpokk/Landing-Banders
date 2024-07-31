@@ -5,6 +5,17 @@
     --color-accent: #4DC274;
     --color-text-light: #FFFFFF;
     --color-text-light-secondary: rgba(255, 255, 255, 0.5);
+    --font-size-base: 14px;
+    --font-weight-normal: 400;
+    --line-height-base: 1.71;
+}
+
+/* Властивості, які успадковуються */
+.review-section {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-base);
+    color: var(--color-secondary);
 }
 
 .review-header {
@@ -18,11 +29,7 @@
 }
 
 .review-text {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
     text-align: center;
-    color: var(--color-secondary);
     margin-bottom: 40px;
 }
 
@@ -37,7 +44,6 @@
     background-color: var(--color-background);
     border-radius: 16px;
     padding: 20px 0 40px 0;
-
     display: none;
     flex-direction: column;
 }
@@ -49,7 +55,6 @@
     display: flex;
     align-items: center;
     padding: 20px;
-    border-radius: 8px;
     max-width: 295px;
     gap: 8px;
 }
@@ -73,8 +78,6 @@
 
 .reviewer-role {
     font-size: 12px;
-    font-weight: 400;
-    line-height: 1.3;
     color: var(--color-text-light-secondary);
 }
 
@@ -82,6 +85,7 @@
     margin: 0 34px;
 }
 
+/* Media queries для адаптивного дизайну */
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .review-list-item:nth-child(1) {
         display: block;
