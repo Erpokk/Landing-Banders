@@ -7,10 +7,10 @@
   --cl-white: #ffffff;
   --cl-light-green: #d4fde1;
   --cl-line-green: #bee8cc;
+  --cl-text-light-secondary: rgba(255, 255, 255, 0.5);
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
