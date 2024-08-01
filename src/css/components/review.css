@@ -59,18 +59,38 @@
     color: var(--cl-text-light-secondary);
 }
 
-.review {
+.review-p {
     margin: 0 34px;
+    max-width: 267px;
 }
 
-/* Media queries для адаптивного дизайну */
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .review-list-item:nth-child(1) {
         display: block;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) {
+    .review-text {
+        margin-bottom: 64;
+    }
+
+    .review-list-item {
+        border-radius: 30px;
+        padding: 32px 0 40px 0;
+    }
+
+    .reviewer {
+        border-radius: 15px;
+        margin: 0 16px 32px 16px;
+    }
+    
+    .review-p {
+        margin: 0 32px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) { 
     .review-list {
         flex-direction: row;
         flex-wrap: wrap;
@@ -86,8 +106,8 @@
     }
 
     .review-list-item {
-        flex-basis: calc((100% - 32px) / 2);
-    }
+        flex-basis: calc((100% - 32px) / 2);        
+    }    
 }
 
 @media screen and (min-width: 1280px) {
