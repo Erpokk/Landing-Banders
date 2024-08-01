@@ -150,7 +150,6 @@
     margin: 20px 0;
     text-decoration: none;
     color: var(--cl-primary-txt);
-    font-family: sans-serif;
     font-weight: 600;
     transition: 0.5s;
     z-index: 1;

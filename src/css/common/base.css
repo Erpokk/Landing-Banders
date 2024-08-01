@@ -4,29 +4,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0em;
   font-weight: 400;
-  padding-top: 120px;
+  padding-top: 98px;
   color: var(--cl-primary-txt);
-}
 
-@media screen and (min-width: 768px) {
-  body {
-    padding-top: 80px;
-  }
-}
-
-.container {
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-
-  @media only screen and (min-width: 768px) {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
-  @media only screen and (min-width: 1280px) {
-    max-width: 1280px;
-    padding: 0 64px;
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
   }
 }
 
@@ -98,4 +80,11 @@ body {
 
 .accent {
   color: var(--cl-line-green);
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px; /* Высота, на которую нужно поднять элемент */
+  visibility: hidden;
 }
