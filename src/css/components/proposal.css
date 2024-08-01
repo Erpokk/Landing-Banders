@@ -1,9 +1,9 @@
 .extra-div {
     border-radius: 16px;
     background: linear-gradient(80deg, var(--cl-bg-primary) 0%, var(--cl-line-green) 100%);
-    position: relative;
-    overflow:hidden; 
-    z-index: -2; 
+    position: relative; 
+    overflow:hidden;  
+    z-index: 1;  
     max-width: 335px;
     height: 737px;
     margin: 0 auto; 
@@ -28,6 +28,7 @@
     height: 100%;
     border-radius: 16px;
     z-index: -1; 
+
 }
 .proposal-wrapper::before {
     background-color: rgba(255, 255, 255, 0.5); 
@@ -37,7 +38,6 @@
 .proposal-wrapper::after {
     background-color: var(--cl-light-green);
     transform: translate(-50%, -50%) rotate(-11deg);
-
 } 
 .prop-p {
     font-weight: 700;
