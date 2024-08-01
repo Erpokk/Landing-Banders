@@ -1,5 +1,4 @@
 .about-desc {
-  line-height: 1.71;
   text-align: center;
   color: var(--cl-second-txt);
   margin: 0 auto 40px;
@@ -20,7 +19,6 @@
 }
 
 .about-title {
-  /*font-weight: 700;*/
   font-size: 28px;
   margin-bottom: 16px;
   line-height: 1.14;
