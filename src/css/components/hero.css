@@ -5,7 +5,7 @@
   position: relative;
   background-color: var(--cl-bg-grey);
   padding: 425px 20px 72px 20px;
-  margin: 8px auto 0 auto;
+  margin: 0 auto 0 auto;
   max-width: 335px;
   border-radius: 16px;
   background-image: linear-gradient(
@@ -40,7 +40,7 @@
     max-width: 704px;
     height: 857px;
     padding: 260px 0px 0px 32px;
-    margin: 32px auto 0 auto;
+    margin: 0 auto 0 auto;
     border-radius: 30px;
     background-image: linear-gradient(
         96deg,
@@ -76,7 +76,7 @@
     max-width: 1152px;
     height: 629px;
     padding: 164px 0px 0px 64px;
-    margin: 16px auto 0 auto;
+    margin: 0 auto 0 auto;
     border-radius: 30px;
     background-image: linear-gradient(
         96deg,
