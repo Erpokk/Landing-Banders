@@ -14,7 +14,7 @@
     
     
     <script type="module" crossorigin src="/msc-5-gp-3/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/msc-5-gp-3/assets/index-418b39e4.css">
+    <link rel="stylesheet" href="/msc-5-gp-3/assets/index-0e007252.css">
   </head>
   <body>
     <header class="header">
@@ -266,9 +266,123 @@
   </div>
 </section>
 
-    <section class="app">
-  <div class="container">
-    <h2>App</h2>
+    <section class="app" id="leave-app">
+  <div class="container mg-sec">
+    <h2 class="hd-two app">Leave an <span class="underline">application</span></h2>
+    <p class="form-note">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
+    
+    <div class="content-wrapper">
+      <div class="stopper-image">
+          <span class="image-background">
+            <img
+            class="student-image"
+            srcset="../img/application/happy-girl.png 1x, ../img/application/happy-girl@2x.png 2x"
+            src="../img/application/happy-girl.png"
+            alt="image of a student"
+            width="492"
+            height="392"
+            />
+      
+            <div class="ad-text">
+              <p class="stopper-title">1000</p>
+              <p class="stopper-text">of our online English language lessons! This journey has been full of discovery, growth and unforgettable moments, and we are happy to share this joyful event with you.</p>
+            </div>
+          </span>
+      </div>
+      <form class="user-form">
+        <div class="user-data">
+          <div class="user-form-field">
+            <label class="form-label visually-hidden" for="user-name">Name</label>
+              <input
+                type="text"
+                class="form-input"
+                id="user-name"
+                placeholder="Name"
+                >
+          </div>
+          <div class="user-form-field">
+            <label class="form-label visually-hidden" for="user-email">Email</label>
+              <input
+                type="email"
+                class="form-input"
+                id="user-email"
+                placeholder="Email"
+                >
+          </div>
+          <div class="user-form-field">
+            <label class="form-label visually-hidden" for="user-phone">Phone</label>
+              <input
+                type="tel"
+                class="form-input"
+                id="user-phone"
+                placeholder="Phone"
+                >
+          </div>
+          <div class="user-form-field">
+            <label class="form-label visually-hidden" for="user-comment">Comment</label>
+            <textarea
+              class="form-comment form-input"
+              rows="3"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+        </div>
+        <div class="teacher-selection">
+          <fieldset>
+            <legend class="group-title">Choose a teacher</legend>
+              <div class="teacher-selection-options">
+                <div class="radio-option-box">
+                  <input type="radio" name="option" value="maria" class="visually-hidden" id="one">
+                  <div class="radio-btn-wrapper">
+                    <span class="form-icon">
+                      <span class="checked"></span>
+                    </span>
+                  </div>
+                  <label class="radio-option" for="one">
+                    Maria</label>
+                </div>
+                <div class="radio-option-box">
+                  <input type="radio" name="option" value="artem" class="visually-hidden" id="two">
+                  <div class="radio-btn-wrapper">
+                    <span class="form-icon">
+                      <span class="checked"></span>
+                    </span>
+                  </div>
+                  <label class="radio-option" for="two">
+                    Artem</label>
+                </div>
+                <div class="radio-option-box">
+                  <input type="radio" name="option" value="ilona" class="visually-hidden" id="three">
+                  <div class="radio-btn-wrapper">
+                    <span class="form-icon">
+                      <span class="checked"></span>
+                    </span>
+                  </div>
+                  <label class="radio-option" for="three">
+                    Ilona</label>
+                </div>
+                <div class="radio-option-box">
+                  <input type="radio" name="option" value="volodymyr" class="visually-hidden" id="four">
+                  <div class="radio-btn-wrapper">
+                    <span class="form-icon">
+                      <span class="checked"></span>
+                    </span>
+                  </div>
+                  <label class="radio-option" for="four">
+                    Volodymyr</label>
+                </div>
+              </div>
+          </fieldset>
+        </div>
+        <button class="submit-btn" type="submit">Send</button>
+        <p class="agreement-note">By clicking on “Send” button,
+          you agree to our
+          <a class="form-link" href="">Privacy Policy</a>, <br/> allow Promodo to use this
+          information for marketing purposes.</p>
+      </form>
+    </div>
   </div>
 </section>
 
