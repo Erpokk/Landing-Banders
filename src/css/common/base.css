@@ -82,9 +82,3 @@ body {
   color: var(--cl-line-green);
 }
 
-.anchor {
-  display: block;
-  position: relative;
-  top: -100px; /* Высота, на которую нужно поднять элемент */
-  visibility: hidden;
-}

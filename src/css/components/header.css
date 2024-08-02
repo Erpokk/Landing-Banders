@@ -49,10 +49,6 @@
   outline: none;
   cursor: pointer;
   z-index: 5;
-
-  @media screen and (min-width: 1280px) {
-    display: none;
-  }
 }
 
 .menu-burger-btn span {
@@ -138,6 +134,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .menu-burger-btn {
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
   .menu-link {
     display: inline-block;
     outline: transparent;
