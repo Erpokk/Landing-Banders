@@ -1,6 +1,9 @@
 :root {
   --cl-primary-txt: rgb(18, 20, 23);
   --cl-second-txt: rgba(18, 20, 23, 0.5);
+  --cl-form-txt: rgba(18, 20, 23, 0.8);
+  --cl-form-icon: rgba(18, 20, 23, 0.2);
+  --cl-border-social-link: rgba(18, 20, 23, 0.1);
   --cl-bg-grey: #f3f5f6;
   --cl-bg-primary: #4dc274;
   --cl-bg-accent: #38ae5f;
@@ -8,12 +11,10 @@
   --cl-light-green: #d4fde1;
   --cl-line-green: #bee8cc;
   --cl-text-light-secondary: rgba(255, 255, 255, 0.5);
+  --cl-stopper-txt: rgba(255, 255, 255, 0.7);
   --cl-shadow: #bebebe;
-  --cl-border-social-link: rgba(18, 20, 23, 0.10);
-  --cl-border-social-link-accent: rgba(77, 194, 116, 0.10);
-  
+  --cl-border-social-link-accent: rgba(77, 194, 116, 0.1);
 
-  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
