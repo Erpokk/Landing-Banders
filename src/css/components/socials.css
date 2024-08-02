@@ -33,6 +33,7 @@
   border: 1px solid var(--cl-border-social-link);
   border-radius: 10px;
   transition: all 0.3s;
+  outline: transparent;
 }
 
 .social-link:hover,
