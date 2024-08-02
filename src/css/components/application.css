@@ -77,6 +77,12 @@ fieldset {
   margin-bottom: 40px;
 }
 
+.radio-btn-hidden {
+  position: relative;
+  left: 23px;
+  opacity: 0;
+}
+
 .radio-option-box {
   display: flex;
   align-items: center;
