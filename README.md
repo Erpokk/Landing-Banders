@@ -40,11 +40,15 @@ The final version of the project is deployed on GitHub Pages. You can view the l
 
 - src/
   - css/ - CSS partials
-  - img/ - Optimized images
- 
-  js/ - JavaScript files
-  partials/ - HTML partials
-  index.html - Main HTML file
-  css/styles.css - Main CSS file
+    - common - Often used css
+    - components - Components for Vite
+    - utils - Utlis for better and faster developing
+    - styles.css - Main CSS file
+  - img/ - Optimized images for different Vite components
+  - partials/ - HTML partials
+  - public/ - Favicon img
+  - index.html / - Main HTML file
+  - main.js/ - Main JavaScript file
+  
 
 
