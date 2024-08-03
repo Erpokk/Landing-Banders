@@ -10,12 +10,6 @@
   box-shadow: -20px -20px 41px var(--cl-shadow), 20px 3px 41px var(--cl-white);
 }
 
-@media screen and (min-width: 1280px) {
-  .header {
-    padding: 0;
-  }
-}
-
 .header-wrapper {
   display: flex;
   align-items: center;
@@ -140,66 +134,27 @@
     }
   }
   .menu-link {
+    position: relative;
     display: inline-block;
     outline: transparent;
-    padding: 10px;
+    padding: 5px 0;
   }
-
-  .menu-link {
-    position: relative;
-    display: block;
-    margin: 20px 0;
-    text-decoration: none;
-    color: var(--cl-primary-txt);
-    font-weight: 600;
-    transition: 0.5s;
-    z-index: 1;
-  }
-
-  .menu-link::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-top: 2px solid var(--cl-bg-accent);
-    border-bottom: 2px solid var(--cl-bg-accent);
-    transform: scaleY(2);
-    opacity: 0;
-    transition: 0.3s;
-  }
-
   .menu-link::after {
     content: '';
     position: absolute;
-    top: 2px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--cl-bg-accent);
-    transform: scale(0);
-    opacity: 0;
-    transition: 0.3s;
-    z-index: -1;
+    width: 0;
+    height: 2px;
+    left: 0; 
+    bottom: -4px;
+    background-color: var(--cl-bg-primary);
+    transition: width 0.4s ease, left 0.4s ease;
   }
-
-  .menu-link:hover,
-  .menu-link:focus {
-    color: var(--cl-white);
-  }
-
-  .menu-link:hover::before,
-  .menu-link:focus::before {
-    transform: scaleY(1);
-    opacity: 1;
-  }
-
+  
   .menu-link:hover::after,
   .menu-link:focus::after {
-    transform: scaleY(1);
-    opacity: 1;
-  }
+    width: 58%; 
+    left: 0;
+}
 }
 
 @media screen and (max-width: 1279px) {
