@@ -40,7 +40,7 @@ The final version of the project is deployed on GitHub Pages. You can view the l
 
 - src/
   - css/ - CSS partials
-    - common - Often used css
+    - common - Often used CSS
     - components - Components for Vite
     - utils - Utlis for better and faster developing
     - styles.css - Main CSS file
