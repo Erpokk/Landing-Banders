@@ -186,7 +186,7 @@
 
 @media screen and (min-width: 1280px) {
   .menu-wrapper {
-    flex-basis: 73%;
+    flex-basis: 69%;
     flex-direction: row;
     position: static;
     visibility: visible;
