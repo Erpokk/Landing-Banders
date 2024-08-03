@@ -69,6 +69,7 @@ fieldset {
 .radio-option {
   font-size: 14px;
   line-height: 1.71;
+  cursor: pointer;
 }
 
 .teacher-selection-options {
@@ -81,6 +82,7 @@ fieldset {
   position: relative;
   left: 23px;
   opacity: 0;
+  cursor: pointer;
 }
 
 .radio-option-box {
