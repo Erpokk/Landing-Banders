@@ -38,7 +38,7 @@
 
 .social-link:hover,
 .social-link:focus {
-  fill: var(--cl-bg-accent);
+  fill: var(--cl-bg-primary);
   border: 1px solid var(--cl-border-social-link-accent);
 }
 
