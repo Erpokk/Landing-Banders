@@ -1,21 +1,11 @@
 # English Excellence - One-Page Website
-The final version of the project is deployed on GitHub Pages. You can view the live site https://erpokk.github.io/msc-5-gp-3/
 
 ## Project Overview
 
 This project, English Excellence, is a one-page website developed as part of the "HTML and CSS Fundamentals for User Interface Design" course. It showcases an English language course and aims to provide an engaging and informative user experience.
+The final version of the project is deployed on GitHub Pages. You can view the live site https://erpokk.github.io/msc-5-gp-3/
 
 ## Key Features
-
-1. Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
-   [Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встанови базові залежності проекту в терміналі командою `npm install`.
-3. Запусти режим розробки, виконавши в терміналі команду `npm run dev`.
-4. Перейдіть у браузері за адресою
-   [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
-   перезавантажуватись після збереження змін у файли проекту.
-
-## Файли і папки
 
 - Responsive Design: The website is fully responsive, with breakpoints for mobile devices, tablets, and desktops, ensuring a seamless user experience across all screen sizes.
 - Semantic HTML: The HTML structure is semantic and follows best practices, making the content accessible and improving SEO.
@@ -46,14 +36,15 @@ This project, English Excellence, is a one-page website developed as part of the
 6. **Performance**: Achieved high performance scores on PageSpeed Insights, with each metric scoring above **90%**.
 7. **Error-Free Console**: Ensured the developer console is free of errors.
 
-## Deployment
+## Project Structure
+
+- src/
+  - css/ - CSS partials
+  - img/ - Optimized images
+ 
+  js/ - JavaScript files
+  partials/ - HTML partials
+  index.html - Main HTML file
+  css/styles.css - Main CSS file
 
 
-
-1. Після кожного пуша у гілку `main` GitHub-репозиторію, запускається
-   спеціальний скрипт (GitHub Action) із файлу `.github/workflows/deploy.yml`.
-2. Усі файли репозиторію копіюються на сервер, де проект ініціалізується та
-   проходить лінтинг та збірку перед деплоєм.
-3. Якщо всі кроки пройшли успішно, зібрана продакшн версія файлів проекту
-   відправляється у гілку `gh-pages`. В іншому випадку, у лозі виконання скрипта
-   буде вказано в чому проблема.
