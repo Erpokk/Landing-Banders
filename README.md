@@ -1,34 +1,11 @@
 # English Excellence - One-Page Website
+The final version of the project is deployed on GitHub Pages. You can view the live site https://erpokk.github.io/msc-5-gp-3/
+
 ## Project Overview
 
 This project, English Excellence, is a one-page website developed as part of the "HTML and CSS Fundamentals for User Interface Design" course. It showcases an English language course and aims to provide an engaging and informative user experience.
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
-
-На наступному етапі відкриється сторінка створення нового репозиторію. Заповни
-поле його імені, переконайся, що репозиторій публічний, після чого натисни
-кнопку `«Create repository from template»`.
-
-![Creating repo from a template step 2](./assets/template-step-2.png)
-
-Після того, як репозиторій буде створено, необхідно перейти в налаштування
-створеного репозиторію на вкладку `Settings` > `Actions` > `General` як показано
-на зображенні.
-
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
-
-Проскроливши сторінку до самого кінця, в секції `«Workflow permissions»` обери
-опцію `«Read and write permissions»` і постав галочку в чекбоксі. Це необхідно
-для автоматизації процесу деплою проекту.
-
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
-
-Тепер у тебе є особистий репозиторій проекту, зі структурою файлів та папок
-репозиторію-шаблону. Далі працюй з ним, як з будь-яким іншим особистим
-репозиторієм, клонуй його собі на комп'ютер, пиши код, роби коміти та відправляй
-їх на GitHub.
-
-## Підготовка до роботи
+## Key Features
 
 1. Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
    [Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
@@ -40,63 +17,38 @@ This project, English Excellence, is a one-page website developed as part of the
 
 ## Файли і папки
 
-- Файли розмітки компонентів сторінки повинні лежати в папці `src/partials` та
-  імпортуватись до файлу `index.html`. Наприклад, файл з розміткою хедера
-  `header.html` створюємо у папці `partials` та імпортуємо в `index.html`.
-- Файли стилів повинні лежати в папці `src/css` та імпортуватись до HTML-файлів
-  сторінок. Наприклад, для `index.html` файл стилів називається `index.css`.
-- Зображення додавай до папки `src/img`. Збирач оптимізує їх, але тільки при
-  деплої продакшн версії проекту. Все це відбувається у хмарі, щоб не
-  навантажувати твій комп'ютер, тому що на слабких компʼютерах це може зайняти
-  багато часу.
+- Responsive Design: The website is fully responsive, with breakpoints for mobile devices, tablets, and desktops, ensuring a seamless user experience across all screen sizes.
+- Semantic HTML: The HTML structure is semantic and follows best practices, making the content accessible and improving SEO.
+- Optimized Images: All images are optimized for retina displays and stored in the src/images directory. The loading of images is optimized to enhance page performance.
+- Modern Normalize: The project uses modern-normalize to ensure consistent styling across different browsers.
+- Fonts: Custom fonts are integrated to match the design specifications.
+- Favicons: Favicons are added to improve the website's branding and recognition.
+- Interactive Elements: JavaScript is used to add interactive elements, enhancing user engagement.
 
-## Деплой
+## Tools and Technologies
 
-Продакшн версія проекту буде автоматично збиратися та деплоїтись на GitHub
-Pages, у гілку `gh-pages`, щоразу, коли оновлюється гілка `main`. Наприклад,
-після прямого пуша або прийнятого пул-реквесту. Для цього необхідно у файлі
-`package.json` змінити значення прапора `--base=/<REPO>/`, для команди `build`,
-замінивши `<REPO>` на назву свого репозиторію, та відправити зміни на GitHub.
+- **Project Bundler**: Vite
+- **Version Control**: Git
+- **Task Management**: Trello
 
-```json
-"build": "vite build --base=/<REPO>/",
-```
+## Team Experience
+- **Team Collaboration**: Effective team collaboration using Git, including branching, merging, and resolving conflicts.
+- **Project Planning and Task Assignment**: Experience in planning tasks and setting goals using Trello.
+- **Leadership Experience**: Opportunity to gain experience as a Team Lead and Scrum Master.
 
-Далі необхідно зайти в налаштування GitHub-репозиторію (`Settings` > `Pages`) та
-виставити роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо
-це не було зроблено автоматично.
+## Development Process
 
-![GitHub Pages settings](./assets/repo-settings.png)
+1. **Semantic HTML Structure**: Ensured all HTML files are semantically correct and validated using W3C Validator.
+2. **CSS Best Practices**: Implemented modern CSS practices, including the use of partials stored in src/css and imported into src/css/styles.css.
+3. **JavaScript for Interactivity**: Added JavaScript to create interactive elements that enhance user engagement.
+4. **Image Optimization**: Optimized images for faster loading times and better performance.
+5. **Accessibility**: Ensured the site is accessible to all users, including those using assistive technologies.
+6. **Performance**: Achieved high performance scores on PageSpeed Insights, with each metric scoring above **90%**.
+7. **Error-Free Console**: Ensured the developer console is free of errors.
 
-### Статус деплою
+## Deployment
 
-Статус деплою крайнього коміту відображається іконкою біля його ідентифікатора.
 
-- **Жовтий колір** - виконується збірка та деплой проекту.
-- **Зелений колір** - деплой завершився успішно.
-- **Червоний колір** - під час лінтингу, збірки чи деплою сталася помилка.
-
-Більш детальну інформацію про статус можна переглянути натиснувши на іконку, і в
-вікні, що випадає, перейти за посиланням `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-### Жива сторінка
-
-Через якийсь час, зазвичай кілька хвилин, живу сторінку можна буде подивитися за
-адресою, вказаною на вкладці `Settings` > `Pages` в налаштуваннях репозиторію.
-Наприклад, ось посилання на живу версію для цього репозиторію
-
-[https://goitacademy.github.io/vanilla-app-template/](https://goitacademy.github.io/vanilla-app-template/).
-
-Якщо відкриється порожня сторінка, переконайся, що у вкладці `Console` немає
-помилок пов'язаних з неправильними шляхами до CSS та JS файлів проекту
-(**404**). Швидше за все у тебе неправильне значення прапора `--base` для
-команди `build` у файлі `package.json`.
-
-## Як це працює
-
-![How it works](./assets/how-it-works.png)
 
 1. Після кожного пуша у гілку `main` GitHub-репозиторію, запускається
    спеціальний скрипт (GitHub Action) із файлу `.github/workflows/deploy.yml`.
