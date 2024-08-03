@@ -1,12 +1,7 @@
 # English Excellence - One-Page Website
+## Project Overview
 
-
-
-## Створення репозиторію за шаблоном
-
-Використовуй цей репозиторій організації GoIT як шаблон для створення
-репозиторію свого проекту. Для цього натисни на кнопку `«Use this template»` і
-обери опцію `«Create a new repository»`, як показано на зображенні.
+This project, English Excellence, is a one-page website developed as part of the "HTML and CSS Fundamentals for User Interface Design" course. It showcases an English language course and aims to provide an engaging and informative user experience.
 
 ![Creating repo from a template step 1](./assets/template-step-1.png)
 
