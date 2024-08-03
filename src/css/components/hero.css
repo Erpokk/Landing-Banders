@@ -13,7 +13,7 @@
       rgba(0, 0, 0, 0.4) 39.23%,
       rgba(0, 0, 0, 0) 66.28%
     ),
-    url('../../img/hero/hero-bg.jpg');
+    url('../../img/hero/hero-bg.webp');
   background-repeat: no-repeat;
   background-position-x: calc(100% + 213px);
   /* -566px */
