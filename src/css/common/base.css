@@ -69,12 +69,16 @@ body {
   border-radius: 8px;
   background-color: var(--cl-line-green);
   z-index: -1;
+}
 
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
+  .underline::after {
     height: 16px;
   }
+}
 
-  @media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
+  .underline::after {
     height: 20px;
   }
 }
