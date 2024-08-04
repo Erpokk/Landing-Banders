@@ -54,6 +54,7 @@ body {
 }
 
 .underline {
+  display: inline-block;
   position: relative;
 }
 
@@ -81,4 +82,3 @@ body {
 .accent {
   color: var(--cl-line-green);
 }
-
