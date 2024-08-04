@@ -182,3 +182,14 @@
     left: 80%;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .proposal-wrapper {
+    width: 255px;
+    padding: 19px 20px;
+  }
+
+  .proposal-text {
+    line-height: 1.2;
+  }
+}
