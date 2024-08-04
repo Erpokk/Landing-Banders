@@ -7,6 +7,9 @@
   z-index: 999;
   background-color: var(--cl-white);
   transition: box-shadow 300ms;
+}
+
+.header.shadow {
   box-shadow: -20px -20px 41px var(--cl-shadow), 20px 3px 41px var(--cl-white);
 }
 

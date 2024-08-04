@@ -4,11 +4,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0em;
   font-weight: 400;
-  padding-top: 98px;
+  padding-top: 90px;
   color: var(--cl-primary-txt);
 
   @media screen and (min-width: 768px) {
-    padding-top: 100px;
+    padding-top: 90px;
   }
 }
 

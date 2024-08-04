@@ -61,3 +61,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+function toggleHeaderShadow() {
+  if (window.scrollY > 50) {
+    headerEl.classList.add('shadow');
+  } else {
+    headerEl.classList.remove('shadow');
+  }
+}
+
+window.addEventListener('scroll', toggleHeaderShadow);
